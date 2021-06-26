@@ -8,7 +8,7 @@ namespace HelloWorld
     {
         public string studentName;
         public int studentAge;
-        public void display(string name,int age)
+        public void Display(string name,int age)
         {
             this.studentName = name;
             this.studentAge = age;

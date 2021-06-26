@@ -6,7 +6,7 @@ namespace HelloWorld
 {
     abstract class Abstraction
     {
-        public abstract int age();
+        public abstract int Age();
     }
     class Dog : Abstraction
     {
@@ -17,7 +17,7 @@ namespace HelloWorld
             dogAge = x;
         }
 
-        public override int age()
+        public override int Age()
         {
                 Console.Write("The age of Dog is: ");
                 return (dogAge);
